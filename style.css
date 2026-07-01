@@ -1,0 +1,35 @@
+
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+body{
+    background-color: #e0d6bf;
+}
+.accordion-button{
+    background-color: #7c6525;
+    color: white;
+    font-weight: bold;
+}
+.accordion-button:not(.collapsed){
+    background-color: #5e4a15;
+    color: white;
+}
+.accordion-body{
+    background-color: #f5f3ee;
+    color: #212529;
+}
+.titulo-dourado{
+    color: #7A611D;
+}
+.card{
+    background-color: #f5f3ee;
+    color: #212529;
+    border: 2px solid #7A611D;
+}
+
+footer{
+  background-color: #94886d;
+  color: rgb(5, 52, 112);
+  padding: 30px;
+}
